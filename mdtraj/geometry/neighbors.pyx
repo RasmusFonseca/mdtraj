@@ -49,9 +49,9 @@ def compute_neighbors(traj, cutoff, query_indices, haystack_indices=None,
 
     Find (spatially) neighboring atoms in a trajectory.
 
-    Given a set of query_indices representing and a distance cutoff, compute
-    the indices of all atoms whose distance to 1 or more of the query points
-    is less than cutoff.
+    Given a set of query atoms and a distance cutoff, compute the indices of 
+    all atoms whose distance to one or more of the query atoms is less than 
+    cutoff.
 
     Parameters
     ----------
